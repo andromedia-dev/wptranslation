@@ -1,0 +1,13 @@
+{
+    "require": {
+        "illuminate/support": "^8.83",
+        "illuminate/pagination": "^8.83",
+        "illuminate/translation": "^8.83",
+        "illuminate/validation": "^8.83"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.polytranslate-app .fade-enter-active,
+.polytranslate-app .fade-leave-active {
+    transition: opacity 0.333s ease;
+}
+
+.polytranslate-app .fade-75-enter-active,
+.polytranslate-app .fade-75-leave-active {
+    transition: opacity 0.075s ease;
+}
+
+.polytranslate-app .fade-100-enter-active,
+.polytranslate-app .fade-100-leave-active {
+    transition: opacity 0.1s ease;
+}
+
+.polytranslate-app .fade-500-enter-active,
+.polytranslate-app .fade-500-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.polytranslate-app .fade-enter-from,
+.polytranslate-app .fade-leave-to,
+.polytranslate-app .fade-75-enter-from,
+.polytranslate-app .fade-75-leave-to,
+.polytranslate-app .fade-100-enter-from,
+.polytranslate-app .fade-100-leave-to,
+.polytranslate-app .fade-500-enter-from,
+.polytranslate-app .fade-500-leave-to {
+    opacity: 0;
+}

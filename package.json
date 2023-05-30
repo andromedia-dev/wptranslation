@@ -1,0 +1,34 @@
+{
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack",
+        "prod": "webpack --env production",
+        "build": "npm run prod && node build.js",
+        "build-vendors": "php php-scoper.phar add-prefix --config=scoper.inc.php --output-dir=vendor_prefixed --force && cd vendor_prefixed && composer dump-autoload && cd .."
+    },
+    "devDependencies": {
+        "@fontsource/inter": "^4.5.15",
+        "@headlessui/vue": "^1.7.13",
+        "@heroicons/vue": "^2.0.18",
+        "@vue/compiler-sfc": "^3.3.2",
+        "archiver": "^5.3.1",
+        "autoprefixer": "^10.4.14",
+        "axios": "^1.4.0",
+        "css-loader": "^6.7.3",
+        "fs-extra": "^11.1.1",
+        "lodash": "^4.17.21",
+        "mini-css-extract-plugin": "^2.7.6",
+        "nprogress": "^0.2.0",
+        "postcss-loader": "^7.3.0",
+        "tailwindcss": "^3.3.2",
+        "vue": "^3.3.2",
+        "vue-axios": "^3.5.2",
+        "vue-loader": "^17.1.1",
+        "vue-router": "^4.2.0",
+        "vue-style-loader": "^4.1.3",
+        "vue-tippy": "^6.1.2",
+        "webpack": "^5.82.1",
+        "webpack-cli": "^5.1.1"
+    }
+}

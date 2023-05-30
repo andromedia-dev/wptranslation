@@ -1,0 +1,68 @@
+{
+    "domain": "polytranslate",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "polytranslate",
+                "plural_forms": "nplurals=2; plural=(n != 1);",
+                "lang": "fr_FR"
+            },
+            "Google Translate": ["Google Translate"],
+            "DeepL (Premium only)": ["DeepL (Premium seulement)"],
+            "Unlock with premium plan": ["Débloquer avec le plan premium"],
+            "Bulk translation": ["Bulk translation"],
+            "Translate": ["Traduire"],
+            "Settings": ["Réglages"],
+            "Help": ["Aide"],
+            "Post type": ["Type de publication"],
+            "Category": ["Catégorie"],
+            "Product Category": ["Catégorie de produit"],
+            "Author": ["Auteur"],
+            "Title": ["Titre"],
+            "Categories": ["Catégories"],
+            "Tags": ["Étiquettes"],
+            "Date": ["Date"],
+            "Published": ["Publié"],
+            "Polylang not detected": ["Polylang non détecté"],
+            "Polytranslate works with Polylang. You must have the Polylang plugin activated in order to use Polytranslate.": [
+                "Polytranslate fonctionne avec Polylang. L'extension Polylang doit être activée pour pouvoir utiliser Polytranslate."
+            ],
+            "Plugins": ["Extensions"],
+            "Translation service": ["Service de traduction"],
+            "DeepL Api Key": ["DeepL clé API"],
+            "Get your API Key": ["Récupérer votre clé API"],
+            "If you plan to use the free DeepL API, check that your key ends with": [
+                "Si vous envisagez d'utiliser l'API DeepL gratuite, vérifiez que votre clé se termine par"
+            ],
+            "Rewrite title with Chat GPT-4": ["Réécrire le titre avec Chat GPT-4"],
+            "OpenAI Api Key": ["OpenAI clé API"],
+            "Translate custom fields": ["Traduire les champs personnalisés"],
+            "Translate Yoast SEO": ["Traduire Yoast SEO"],
+            "Discard changes": ["Annuler les modifications"],
+            "Save changes": ["Sauvegarder les modifications"],
+            "Your settings have been saved.": ["Vos réglages ont été enregistrés."],
+            "Filters": ["Filtres"],
+            "Reset filters": ["Réinitialiser les filtres"],
+            "Search": ["Rechercher"],
+            "Select current page": ["Sélectionnez la page actuelle"],
+            "Select all": ["Tout sélectionner"],
+            "Closing this page will cancel translations.": ["La fermeture de cette page annulera les traductions."],
+            "Languages": ["Langues"],
+            "Deselect all": ["Tout déselectionner"],
+            "Refresh content": ["Actualiser le contenu"],
+            "Your existing content will be overwritten": ["Votre contenu existant sera écrasé"],
+            "Translation in progress..": ["Traduction en cours.."],
+            "posts translated of": ["publications traduites sur"],
+            "Do not close this window until the process is complete.": ["Ne fermez pas cette fenêtre tant que le processus n'est pas terminé."],
+            "Translation successful": ["Traduction réussie"],
+            "posts have been created.": ["publications ont été créées."],
+            "Finish": ["Terminer"],
+            "Sorry, the": ["Désolé, le"],
+            "bulk mode": ["mode bulk"],
+            "is not available in free version.": ["n'est pas disponible dans la version gratuite."],
+            "With the": ["Avec la"],
+            "Free version": ["Version gratuite"],
+            "You can automatically translate your publications from Polylang.": ["Vous pouvez automatiquement traduire vos publications depuis Polylang."]
+        }
+    }
+}

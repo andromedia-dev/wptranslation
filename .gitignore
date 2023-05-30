@@ -1,0 +1,8 @@
+node_modules
+vendor
+vendor_prefixed
+build
+public/js
+public/css
+public/*.woff2
+.DS_STORE

@@ -1,0 +1,73 @@
+/**
+ * Remove wordpress content margin left
+ */
+.polytranslate-app {
+    margin-left: -20px;
+}
+
+.polytranslate-app .min-h-wpcontent {
+    min-height: calc(100vh - 32px);
+}
+
+.polytranslate-app .top-wpcontent {
+    top: 32px;
+}
+
+.polytranslate-app .left-wpcontent {
+    left: 36px;
+}
+
+@media screen and (max-width: 782px) {
+    .polytranslate-app {
+        margin-left: -10px;
+        min-height: 800px;
+    }
+
+    .wp-responsive-open .polytranslate-app {
+        margin-left: calc(190px - 16em - 10px);
+    }
+
+    .polytranslate-app .min-h-wpcontent {
+        min-height: calc(100vh - 46px);
+    }
+
+    .polytranslate-app .top-wpcontent {
+        top: 46px;
+    }
+
+    .polytranslate-app .left-wpcontent {
+        left: 0px;
+    }
+}
+
+/**
+ * Remove wordpress default style
+ */
+.polytranslate-app input[type="checkbox"]:checked::before {
+    content: "";
+}
+
+.polytranslate-app input[type="radio"]::before {
+    display: none;
+}
+
+.polytranslate-app dd,
+.polytranslate-app li {
+    margin-bottom: 0px;
+}
+
+.polytranslate-app a:focus {
+    box-shadow: inherit;
+    outline: inherit;
+}
+.polytranslate-app select {
+    max-width: unset;
+}
+.polytranslate-app select:focus,
+.polytranslate-app select:hover {
+    color: unset;
+}
+
+.polytranslate-app input[type="checkbox"]:focus {
+    border-color: unset;
+}

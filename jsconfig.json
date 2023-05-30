@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./resources/js",
+        "paths": {
+            "@Layouts/*": ["./Layouts/*"],
+            "@Pages/*": ["./Pages/*"],
+            "@Components/*": ["./Components/*"],
+            "@/*": ["./*"]
+        }
+    },
+    "exclude": ["node_modules", "public"]
+}
