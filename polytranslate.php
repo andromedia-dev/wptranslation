@@ -7,7 +7,6 @@
  * Description:       Automatic translation for WordPress
  * Version:           1.0.0
  * Author:            Polytranslate
- * Author URI:        https://polytranslate.net
  * License:           GPL v3 or later
  * License URI:       https://www.gnu.org/licenses/gpl-3.0.txt
  * Text Domain:       polytranslate
