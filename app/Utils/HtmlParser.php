@@ -40,6 +40,8 @@ class HtmlParser
                     if ($node->hasAttribute($attr)) {
                         $attrValue = $node->getAttribute($attr);
 
+                        $attrValue = str_replace(" ", " ", $attrValue);
+
                         // skip if attr is empty
                         if (strlen(trim($attrValue)) <= 0) {
                             continue;
@@ -51,13 +53,16 @@ class HtmlParser
                         preg_match_all('/^(\s)+/i', $attrValue, $leftSpaces);
                         preg_match_all('/(\s)+$/i', $attrValue, $rigthSpaces);
 
+                        $leftSpaces = count($leftSpaces[0]) > 0 ? strlen($leftSpaces[0][0]) : 0;
+                        $rigthSpaces = count($rigthSpaces[0]) > 0 ? strlen($rigthSpaces[0][0]) : 0;
+
                         // trim content
                         $attrValue = trim($attrValue);
 
                         $values[] = [
                             "key" => $placeholder,
-                            "left_spaces" => count($leftSpaces[0]) > 0 ? strlen($leftSpaces[0][0]) : 0,
-                            "right_spaces" => count($rigthSpaces[0]) > 0 ? strlen($rigthSpaces[0][0]) : 0,
+                            "left_spaces" => $leftSpaces,
+                            "right_spaces" => $rigthSpaces,
                             "value" => $attrValue,
                         ];
 
@@ -82,6 +87,8 @@ class HtmlParser
                 $placeholders = [];
 
                 foreach ($splitted as $split) {
+
+                    $split = str_replace(" ", " ", $split);
 
                     // skip if split is empty
                     if (strlen(trim($split)) <= 0) {
@@ -110,13 +117,16 @@ class HtmlParser
                     preg_match_all('/^(\s)+/i', $nodeValue, $leftSpaces);
                     preg_match_all('/(\s)+$/i', $nodeValue, $rigthSpaces);
 
+                    $leftSpaces = count($leftSpaces[0]) > 0 ? strlen($leftSpaces[0][0]) : 0;
+                    $rigthSpaces = count($rigthSpaces[0]) > 0 ? strlen($rigthSpaces[0][0]) : 0;
+
                     // trim content
                     $nodeValue = trim($nodeValue);
 
                     $values[] = [
                         "key" => $key,
-                        "left_spaces" => count($leftSpaces[0]) > 0 ? strlen($leftSpaces[0][0]) : 0,
-                        "right_spaces" => count($rigthSpaces[0]) > 0 ? strlen($rigthSpaces[0][0]) : 0,
+                        "left_spaces" => $leftSpaces,
+                        "right_spaces" => $rigthSpaces,
                         "value" => $nodeValue,
                     ];
 
