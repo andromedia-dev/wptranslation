@@ -1,1 +1,1 @@
-# polytranslate
+# wptranslation

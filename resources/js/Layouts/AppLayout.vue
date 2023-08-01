@@ -8,9 +8,9 @@ import Notifications from "@Components/Notifications.vue";
 const { __ } = wp.i18n;
 
 const navigation = [
-    { name: __("Bulk translation", "polytranslate"), href: { name: "dashboard" } },
-    { name: __("Settings", "polytranslate"), href: { name: "settings" } },
-    { name: __("Help", "polytranslate"), href: "https://polytranslate.net/documentation", target: "_blank" },
+    { name: __("Bulk translation", "wptranslation"), href: { name: "dashboard" } },
+    { name: __("Settings", "wptranslation"), href: { name: "settings" } },
+    { name: __("Help", "wptranslation"), href: "https://wptranslation.net/documentation", target: "_blank" },
 ];
 
 const pending = () => {

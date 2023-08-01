@@ -13,7 +13,7 @@ import form from "./form";
 import "@fontsource/inter/variable.css";
 import "../css/app.css";
 
-const el = document.getElementById("polytranslate-app");
+const el = document.getElementById("wptranslation-app");
 
 NProgress.configure({
     parent: "#nprogress-container",
@@ -22,7 +22,7 @@ NProgress.configure({
 
 export const app = createApp({
     setup() {
-        patchHeadlessuiPortalRoot("polytranslate-app");
+        patchHeadlessuiPortalRoot("wptranslation-app");
     },
 
     render(a, b, c) {
@@ -31,7 +31,7 @@ export const app = createApp({
 });
 
 app.config.unwrapInjectedRef = true;
-app.config.globalProperties.$app = window.polytranslate;
+app.config.globalProperties.$app = window.wptranslation;
 app.config.globalProperties.$asset = (path) => {
     if (path === undefined) {
         path = "";
@@ -62,7 +62,7 @@ app.use(axios, {
     },
 });
 app.use(form, {
-    prefix: "polytranslate_",
+    prefix: "wptranslation_",
 });
 app.use(VueTippy, {
     defaultProps: {

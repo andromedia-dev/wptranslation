@@ -1,4 +1,4 @@
-.polytranslate-app #nprogress {
+.wptranslation-app #nprogress {
     pointer-events: none;
     position: absolute;
     top: 0;
@@ -6,7 +6,7 @@
     width: 100%;
     height: 2px;
 }
-.polytranslate-app #nprogress .bar {
+.wptranslation-app #nprogress .bar {
     background: var(--nprogress-color);
     position: fixed;
     z-index: 1031;
@@ -15,13 +15,13 @@
     width: 100%;
     height: 2px;
 }
-.polytranslate-app #nprogress .peg {
+.wptranslation-app #nprogress .peg {
     display: none;
 }
-.polytranslate-app .nprogress-custom-parent {
+.wptranslation-app .nprogress-custom-parent {
     pointer-events: none;
 }
-.polytranslate-app .nprogress-custom-parent #nprogress .bar {
+.wptranslation-app .nprogress-custom-parent #nprogress .bar {
     position: absolute;
 }
 @-webkit-keyframes nprogress-spinner {

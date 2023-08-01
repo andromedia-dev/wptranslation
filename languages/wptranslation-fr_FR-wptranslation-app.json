@@ -1,9 +1,9 @@
 {
-    "domain": "polytranslate",
+    "domain": "wptranslation",
     "locale_data": {
         "messages": {
             "": {
-                "domain": "polytranslate",
+                "domain": "wptranslation",
                 "plural_forms": "nplurals=2; plural=(n != 1);",
                 "lang": "fr_FR"
             },
@@ -24,8 +24,8 @@
             "Date": ["Date"],
             "Published": ["Publié"],
             "Polylang not detected": ["Polylang non détecté"],
-            "Polytranslate works with Polylang. You must have the Polylang plugin activated in order to use Polytranslate.": [
-                "Polytranslate fonctionne avec Polylang. L'extension Polylang doit être activée pour pouvoir utiliser Polytranslate."
+            "WPTranslation works with Polylang. You must have the Polylang plugin activated in order to use WPTranslation.": [
+                "WPTranslation fonctionne avec Polylang. L'extension Polylang doit être activée pour pouvoir utiliser WPTranslation."
             ],
             "Plugins": ["Extensions"],
             "Translation service": ["Service de traduction"],

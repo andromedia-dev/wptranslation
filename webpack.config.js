@@ -11,7 +11,7 @@ module.exports = (env = {}) => ({
     entry: [path.resolve("resources/js/app.js")],
     output: {
         path: path.resolve("public"),
-        filename: "js/polytranslate.js",
+        filename: "js/wptranslation.js",
     },
     resolve: {
         alias: {
@@ -37,7 +37,7 @@ module.exports = (env = {}) => ({
     plugins: [
         new VueLoaderPlugin(),
         new MiniCssExtractPlugin({
-            filename: "css/polytranslate.css",
+            filename: "css/wptranslation.css",
         }),
     ],
 });

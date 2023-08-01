@@ -1,5 +1,5 @@
-=== Polytranslate ===
-Contributors: Polytranslate
+=== WPTranslation ===
+Contributors: WPTranslation
 Tags: automatisation, chat gpt, deepl, multilingual, bilingual, translate, translation, language, multilanguage, international, localization
 Requires at least: 6.0.0
 Tested up to: 6.2.2
@@ -24,11 +24,11 @@ Translate your pages, your wordpress post in one click and without additional tr
 == Installation ==
 
 Install the one this two plugin : Polylang or Polylang Pro.
-Upload the Polytranslate plugin to your blog and activate it.
+Upload the WPTranslation plugin to your blog and activate it.
 
 == Development ==
 
-[https://github.com/andromedia-dev/polytranslate](https://github.com/andromedia-dev/polytranslate)
+[https://github.com/andromedia-dev/wptranslation](https://github.com/andromedia-dev/wptranslation)
 
 == Changelog ==
 

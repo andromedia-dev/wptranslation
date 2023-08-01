@@ -70,7 +70,7 @@ const updateSelections = (key) => {
                                                 class="w-4 h-4 bg-white border-gray-300 rounded text-primary-500 focus:ring-primary-500"
                                             />
                                             <div class="ml-3 text-sm font-normal">
-                                                {{ __("Select current page", "polytranslate") }} ({{ items.data.length }})
+                                                {{ __("Select current page", "wptranslation") }} ({{ items.data.length }})
                                             </div>
                                         </label>
                                         <label class="flex items-center">
@@ -80,7 +80,7 @@ const updateSelections = (key) => {
                                                 type="checkbox"
                                                 class="w-4 h-4 bg-white border-gray-300 rounded text-primary-500 focus:ring-primary-500"
                                             />
-                                            <div class="ml-3 text-sm font-normal">{{ __("Select all", "polytranslate") }} ({{ items.total }})</div>
+                                            <div class="ml-3 text-sm font-normal">{{ __("Select all", "wptranslation") }} ({{ items.total }})</div>
                                         </label>
                                     </div>
                                 </div>

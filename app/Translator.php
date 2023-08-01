@@ -1,17 +1,19 @@
 <?php
 
-namespace Polytranslate;
+namespace WPTranslation;
 
 use PLL_Admin_Sync;
-use Polytranslate\Api\GoogleTranslate;
-use Polytranslate\Utils\Language;
-use Polytranslate\Utils\Settings;
-use Polytranslate\Vendors\Illuminate\Support\Str;
+use WPTranslation\Api\GoogleTranslate;
+use WPTranslation\Utils\Language;
+use WPTranslation\Utils\Settings;
+use WPTranslation\Vendors\Illuminate\Support\Str;
 
 if (class_exists("PLL_Admin_Sync")) {
 
     class Translator extends PLL_Admin_Sync
     {
+
+        static private $instance = null;
 
         public function __construct(&$polylang)
         {
@@ -31,6 +33,15 @@ if (class_exists("PLL_Admin_Sync")) {
 
             // translate post meta
             add_filter('pll_translate_post_meta', [$this, "translate_post_meta"], 10, 4);
+        }
+
+        static function make(&$polylang)
+        {
+            if (self::$instance === null) {
+                self::$instance = new self($polylang);
+            }
+
+            return self::$instance;
         }
 
         public function live_translate($is_block_editor, $post)

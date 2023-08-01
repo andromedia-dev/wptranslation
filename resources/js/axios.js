@@ -3,12 +3,12 @@ import axios from "axios";
 export default {
     install(app, options) {
         const instance = axios.create({
-            baseURL: window.polytranslate?.ajaxurl,
+            baseURL: window.wptranslation?.ajaxurl,
             transformRequest: [
                 (data, headers) => {
                     let formData = new FormData();
 
-                    formData.set("_ajax_nonce", window.polytranslate?.nonce);
+                    formData.set("_ajax_nonce", window.wptranslation?.nonce);
 
                     for (const property in data) {
                         if (typeof data[property] === "object" && data[property] !== null) {

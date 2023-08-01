@@ -4,9 +4,9 @@ const plugin = require("tailwindcss/plugin");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    important: ".polytranslate-app",
+    important: ".wptranslation-app",
     content: ["./resources/js/**/*.*"],
-    safelist: ["polytranslate-app"],
+    safelist: ["wptranslation-app"],
     theme: {
         extend: {
             fontFamily: {

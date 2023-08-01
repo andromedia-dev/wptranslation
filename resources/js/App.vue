@@ -20,7 +20,7 @@ const layout = computed(() => {
 </template>
 
 <style lang="css">
-.polytranslate-app #nprogress {
+.wptranslation-app #nprogress {
     --nprogress-color: var(--color-primary-500);
 }
 </style>

@@ -5,8 +5,8 @@ const archiver = require("archiver");
 
 const args = process.argv.slice(2);
 let settings = {
-    name: "polytranslate",
-    output: "polytranslate",
+    name: "wptranslation",
+    output: "wptranslation",
 };
 
 for (let i = 0; i < args.length; i++) {
@@ -64,7 +64,7 @@ archive.directory("languages", settings.name + "/languages");
 archive.directory("public", settings.name + "/public");
 archive.directory("routes", settings.name + "/routes");
 archive.directory("vendor_prefixed", settings.name + "/vendor_prefixed");
-archive.file("polytranslate.php", { name: settings.name + "/polytranslate.php" });
+archive.file("wptranslation.php", { name: settings.name + "/wptranslation.php" });
 archive.file("index.php", { name: settings.name + "/index.php" });
 archive.file("readme.txt", { name: settings.name + "/readme.txt" });
 

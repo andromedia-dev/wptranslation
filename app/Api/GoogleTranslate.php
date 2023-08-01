@@ -1,10 +1,10 @@
 <?php
 
-namespace Polytranslate\Api;
+namespace WPTranslation\Api;
 
 use DOMDocument;
 use DOMElement;
-use Polytranslate\Utils\HtmlParser;
+use WPTranslation\Utils\HtmlParser;
 
 class GoogleTranslate
 {

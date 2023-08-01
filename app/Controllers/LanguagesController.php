@@ -1,6 +1,6 @@
 <?php
 
-namespace Polytranslate\Controllers;
+namespace WPTranslation\Controllers;
 
 class LanguagesController extends Controller
 {

@@ -15,7 +15,7 @@ defineEmits(["reset"]);
             ]"
         >
             <FunnelIcon class="w-5 h-5 mr-2 -ml-1" aria-hidden="true" />
-            {{ __("Filters", "polytranslate") }}
+            {{ __("Filters", "wptranslation") }}
         </PopoverButton>
 
         <transition
@@ -33,7 +33,7 @@ defineEmits(["reset"]);
                     </div>
                     <div class="flex justify-end px-4 py-2 border-t border-gray-300">
                         <button @click="$emit('reset')" class="text-xs text-right text-primary-500 hover:underline">
-                            {{ __("Reset filters", "polytranslate") }}
+                            {{ __("Reset filters", "wptranslation") }}
                         </button>
                     </div>
                 </div>

@@ -7,9 +7,9 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
-.polytranslate-app *,
-.polytranslate-app ::before,
-.polytranslate-app ::after {
+.wptranslation-app *,
+.wptranslation-app ::before,
+.wptranslation-app ::after {
     box-sizing: border-box;
     /* 1 */
     border-width: 0;
@@ -20,8 +20,8 @@
     /* 2 */
 }
 
-.polytranslate-app ::before,
-.polytranslate-app ::after {
+.wptranslation-app ::before,
+.wptranslation-app ::after {
     --tw-content: "";
 }
 
@@ -32,7 +32,7 @@
 4. Use the user's configured `sans` font-family by default.
 */
 
-.polytranslate-app {
+.wptranslation-app {
     line-height: 1.5;
     /* 1 */
     -webkit-text-size-adjust: 100%;
@@ -52,7 +52,7 @@
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
 
-.polytranslate-app {
+.wptranslation-app {
     margin: 0;
     /* 1 */
     line-height: inherit;
@@ -65,7 +65,7 @@
 3. Ensure horizontal rules are visible by default.
 */
 
-.polytranslate-app hr {
+.wptranslation-app hr {
     height: 0;
     /* 1 */
     color: inherit;
@@ -78,7 +78,7 @@
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
 
-.polytranslate-app abbr:where([title]) {
+.wptranslation-app abbr:where([title]) {
     -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted;
 }
@@ -87,12 +87,12 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 Remove the default font size and weight for headings.
 */
 
-.polytranslate-app h1,
-.polytranslate-app h2,
-.polytranslate-app h3,
-.polytranslate-app h4,
-.polytranslate-app h5,
-.polytranslate-app h6 {
+.wptranslation-app h1,
+.wptranslation-app h2,
+.wptranslation-app h3,
+.wptranslation-app h4,
+.wptranslation-app h5,
+.wptranslation-app h6 {
     font-size: inherit;
     font-weight: inherit;
 }
@@ -101,7 +101,7 @@ Remove the default font size and weight for headings.
 Reset links to optimize for opt-in styling instead of opt-out.
 */
 
-.polytranslate-app a {
+.wptranslation-app a {
     color: inherit;
     text-decoration: inherit;
 }
@@ -110,8 +110,8 @@ Reset links to optimize for opt-in styling instead of opt-out.
 Add the correct font weight in Edge and Safari.
 */
 
-.polytranslate-app b,
-.polytranslate-app strong {
+.wptranslation-app b,
+.wptranslation-app strong {
     font-weight: bolder;
 }
 
@@ -120,10 +120,10 @@ Add the correct font weight in Edge and Safari.
 2. Correct the odd `em` font sizing in all browsers.
 */
 
-.polytranslate-app code,
-.polytranslate-app kbd,
-.polytranslate-app samp,
-.polytranslate-app pre {
+.wptranslation-app code,
+.wptranslation-app kbd,
+.wptranslation-app samp,
+.wptranslation-app pre {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     /* 1 */
     font-size: 1em;
@@ -134,7 +134,7 @@ Add the correct font weight in Edge and Safari.
 Add the correct font size in all browsers.
 */
 
-.polytranslate-app small {
+.wptranslation-app small {
     font-size: 80%;
 }
 
@@ -142,19 +142,19 @@ Add the correct font size in all browsers.
 Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 */
 
-.polytranslate-app sub,
-.polytranslate-app sup {
+.wptranslation-app sub,
+.wptranslation-app sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline;
 }
 
-.polytranslate-app sub {
+.wptranslation-app sub {
     bottom: -0.25em;
 }
 
-.polytranslate-app sup {
+.wptranslation-app sup {
     top: -0.5em;
 }
 
@@ -164,7 +164,7 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 3. Remove gaps between table borders by default.
 */
 
-.polytranslate-app table {
+.wptranslation-app table {
     text-indent: 0;
     /* 1 */
     border-color: inherit;
@@ -179,11 +179,11 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 3. Remove default padding in all browsers.
 */
 
-.polytranslate-app button,
-.polytranslate-app input,
-.polytranslate-app optgroup,
-.polytranslate-app select,
-.polytranslate-app textarea {
+.wptranslation-app button,
+.wptranslation-app input,
+.wptranslation-app optgroup,
+.wptranslation-app select,
+.wptranslation-app textarea {
     font-family: inherit;
     /* 1 */
     font-size: 100%;
@@ -202,8 +202,8 @@ Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 Remove the inheritance of text transform in Edge and Firefox.
 */
 
-.polytranslate-app button,
-.polytranslate-app select {
+.wptranslation-app button,
+.wptranslation-app select {
     text-transform: none;
 }
 
@@ -212,10 +212,10 @@ Remove the inheritance of text transform in Edge and Firefox.
 2. Remove default button styles.
 */
 
-.polytranslate-app button,
-.polytranslate-app [type="button"],
-.polytranslate-app [type="reset"],
-.polytranslate-app [type="submit"] {
+.wptranslation-app button,
+.wptranslation-app [type="button"],
+.wptranslation-app [type="reset"],
+.wptranslation-app [type="submit"] {
     -webkit-appearance: button;
     /* 1 */
     background-color: transparent;
@@ -228,7 +228,7 @@ Remove the inheritance of text transform in Edge and Firefox.
 Use the modern Firefox focus style for all focusable elements.
 */
 
-.polytranslate-app :-moz-focusring {
+.wptranslation-app :-moz-focusring {
     outline: auto;
 }
 
@@ -236,7 +236,7 @@ Use the modern Firefox focus style for all focusable elements.
 Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
 */
 
-.polytranslate-app :-moz-ui-invalid {
+.wptranslation-app :-moz-ui-invalid {
     box-shadow: none;
 }
 
@@ -244,7 +244,7 @@ Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/
 Add the correct vertical alignment in Chrome and Firefox.
 */
 
-.polytranslate-app progress {
+.wptranslation-app progress {
     vertical-align: baseline;
 }
 
@@ -252,8 +252,8 @@ Add the correct vertical alignment in Chrome and Firefox.
 Correct the cursor style of increment and decrement buttons in Safari.
 */
 
-.polytranslate-app ::-webkit-inner-spin-button,
-.polytranslate-app ::-webkit-outer-spin-button {
+.wptranslation-app ::-webkit-inner-spin-button,
+.wptranslation-app ::-webkit-outer-spin-button {
     height: auto;
 }
 
@@ -262,7 +262,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 2. Correct the outline style in Safari.
 */
 
-.polytranslate-app [type="search"] {
+.wptranslation-app [type="search"] {
     -webkit-appearance: textfield;
     /* 1 */
     outline-offset: -2px;
@@ -273,7 +273,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 Remove the inner padding in Chrome and Safari on macOS.
 */
 
-.polytranslate-app ::-webkit-search-decoration {
+.wptranslation-app ::-webkit-search-decoration {
     -webkit-appearance: none;
 }
 
@@ -282,7 +282,7 @@ Remove the inner padding in Chrome and Safari on macOS.
 2. Change font properties to `inherit` in Safari.
 */
 
-.polytranslate-app ::-webkit-file-upload-button {
+.wptranslation-app ::-webkit-file-upload-button {
     -webkit-appearance: button;
     /* 1 */
     font: inherit;
@@ -293,7 +293,7 @@ Remove the inner padding in Chrome and Safari on macOS.
 Add the correct display in Chrome and Safari.
 */
 
-.polytranslate-app summary {
+.wptranslation-app summary {
     display: list-item;
 }
 
@@ -301,34 +301,34 @@ Add the correct display in Chrome and Safari.
 Removes the default spacing and border for appropriate elements.
 */
 
-.polytranslate-app blockquote,
-.polytranslate-app dl,
-.polytranslate-app dd,
-.polytranslate-app h1,
-.polytranslate-app h2,
-.polytranslate-app h3,
-.polytranslate-app h4,
-.polytranslate-app h5,
-.polytranslate-app h6,
-.polytranslate-app hr,
-.polytranslate-app figure,
-.polytranslate-app p,
-.polytranslate-app pre {
+.wptranslation-app blockquote,
+.wptranslation-app dl,
+.wptranslation-app dd,
+.wptranslation-app h1,
+.wptranslation-app h2,
+.wptranslation-app h3,
+.wptranslation-app h4,
+.wptranslation-app h5,
+.wptranslation-app h6,
+.wptranslation-app hr,
+.wptranslation-app figure,
+.wptranslation-app p,
+.wptranslation-app pre {
     margin: 0;
 }
 
-.polytranslate-app fieldset {
+.wptranslation-app fieldset {
     margin: 0;
     padding: 0;
 }
 
-.polytranslate-app legend {
+.wptranslation-app legend {
     padding: 0;
 }
 
-.polytranslate-app ol,
-.polytranslate-app ul,
-.polytranslate-app menu {
+.wptranslation-app ol,
+.wptranslation-app ul,
+.wptranslation-app menu {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -338,7 +338,7 @@ Removes the default spacing and border for appropriate elements.
 Prevent resizing textareas horizontally by default.
 */
 
-.polytranslate-app textarea {
+.wptranslation-app textarea {
     resize: vertical;
 }
 
@@ -347,24 +347,24 @@ Prevent resizing textareas horizontally by default.
 2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
-.polytranslate-app input::-moz-placeholder,
-.polytranslate-app textarea::-moz-placeholder {
+.wptranslation-app input::-moz-placeholder,
+.wptranslation-app textarea::-moz-placeholder {
     opacity: 1;
     /* 1 */
     color: #9ca3af;
     /* 2 */
 }
 
-.polytranslate-app input:-ms-input-placeholder,
-.polytranslate-app textarea:-ms-input-placeholder {
+.wptranslation-app input:-ms-input-placeholder,
+.wptranslation-app textarea:-ms-input-placeholder {
     opacity: 1;
     /* 1 */
     color: #9ca3af;
     /* 2 */
 }
 
-.polytranslate-app input::placeholder,
-.polytranslate-app textarea::placeholder {
+.wptranslation-app input::placeholder,
+.wptranslation-app textarea::placeholder {
     opacity: 1;
     /* 1 */
     color: #9ca3af;
@@ -375,8 +375,8 @@ Prevent resizing textareas horizontally by default.
 Set the default cursor for buttons.
 */
 
-.polytranslate-app button,
-.polytranslate-app [role="button"] {
+.wptranslation-app button,
+.wptranslation-app [role="button"] {
     cursor: pointer;
 }
 
@@ -384,7 +384,7 @@ Set the default cursor for buttons.
 Make sure disabled buttons don't get the pointer cursor.
 */
 
-.polytranslate-app :disabled {
+.wptranslation-app :disabled {
     cursor: default;
 }
 
@@ -394,14 +394,14 @@ Make sure disabled buttons don't get the pointer cursor.
    This can trigger a poorly considered lint error in some tools but is included by design.
 */
 
-.polytranslate-app img,
-.polytranslate-app svg,
-.polytranslate-app video,
-.polytranslate-app canvas,
-.polytranslate-app audio,
-.polytranslate-app iframe,
-.polytranslate-app embed,
-.polytranslate-app object {
+.wptranslation-app img,
+.wptranslation-app svg,
+.wptranslation-app video,
+.wptranslation-app canvas,
+.wptranslation-app audio,
+.wptranslation-app iframe,
+.wptranslation-app embed,
+.wptranslation-app object {
     display: block;
     /* 1 */
     vertical-align: middle;
@@ -412,8 +412,8 @@ Make sure disabled buttons don't get the pointer cursor.
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
 */
 
-.polytranslate-app img,
-.polytranslate-app video {
+.wptranslation-app img,
+.wptranslation-app video {
     max-width: 100%;
     height: auto;
 }
@@ -422,13 +422,13 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 Ensure the default browser behavior of the `hidden` attribute.
 */
 
-.polytranslate-app [hidden] {
+.wptranslation-app [hidden] {
     display: none;
 }
 
-.polytranslate-app *,
-.polytranslate-app ::before,
-.polytranslate-app ::after {
+.wptranslation-app *,
+.wptranslation-app ::before,
+.wptranslation-app ::after {
     --tw-translate-x: 0;
     --tw-translate-y: 0;
     --tw-rotate: 0;

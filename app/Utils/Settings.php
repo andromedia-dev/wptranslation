@@ -1,12 +1,12 @@
 <?php
 
-namespace Polytranslate\Utils;
+namespace WPTranslation\Utils;
 
-use Polytranslate\Vendors\Illuminate\Support\Arr;
+use WPTranslation\Vendors\Illuminate\Support\Arr;
 
 class Settings
 {
-    const OPTION_NAME = "polytranslate_settings";
+    const OPTION_NAME = "wptranslation_settings";
 
     static private $data;
     static private $initialized = false;

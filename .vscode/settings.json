@@ -1,0 +1,18 @@
+{
+    "intelephense.environment.includePaths": ["/Users/franck/Local Sites/polylang/app/public/wp-content/plugins/polylang"],
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/vendor/**/{Tests,tests}/**",
+        "**/.history/**",
+        "**/vendor/**/vendor/**",
+        "vendor/**",
+        "vendor_prefixed/vendor/scoper-autoload.php"
+    ],
+    "css.lint.unknownAtRules": "ignore"
+}

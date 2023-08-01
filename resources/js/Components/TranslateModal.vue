@@ -106,7 +106,7 @@ defineExpose({ show });
                                     <div class="space-y-6">
                                         <div>
                                             <div class="block text-sm font-medium leading-6 text-gray-900">
-                                                {{ __("Languages", "polytranslate") }}
+                                                {{ __("Languages", "wptranslation") }}
                                             </div>
                                             <div class="flex items-center justify-end mt-2 space-x-2">
                                                 <button
@@ -114,14 +114,14 @@ defineExpose({ show });
                                                     type="button"
                                                     class="px-2 py-1 text-xs font-semibold text-gray-900 bg-white rounded shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
                                                 >
-                                                    {{ __("Select all", "polytranslate") }}
+                                                    {{ __("Select all", "wptranslation") }}
                                                 </button>
                                                 <button
                                                     @click="deselectAll"
                                                     type="button"
                                                     class="px-2 py-1 text-xs font-semibold text-gray-900 bg-white rounded shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
                                                 >
-                                                    {{ __("Deselect all", "polytranslate") }}
+                                                    {{ __("Deselect all", "wptranslation") }}
                                                 </button>
                                             </div>
                                             <div class="grid grid-cols-3 gap-4 mt-2 sm:grid-cols-4 lg:grid-cols-6">
@@ -141,9 +141,9 @@ defineExpose({ show });
                                             </div>
                                         </div>
                                         <div>
-                                            <Switch v-model="form.refresh">{{ __("Refresh content", "polytranslate") }}</Switch>
+                                            <Switch v-model="form.refresh">{{ __("Refresh content", "wptranslation") }}</Switch>
                                             <div class="mt-1 text-xs text-gray-600 ml-14">
-                                                {{ __("Your existing content will be overwritten", "polytranslate") }}
+                                                {{ __("Your existing content will be overwritten", "wptranslation") }}
                                             </div>
                                         </div>
                                     </div>
@@ -158,33 +158,33 @@ defineExpose({ show });
                                             ]"
                                         >
                                             <LanguageIcon class="w-5 h-5 mr-2 -ml-1" aria-hidden="true" />
-                                            {{ __("Translate", "polytranslate") }}
+                                            {{ __("Translate", "wptranslation") }}
                                         </button>
                                     </div>
                                 </div>
                                 <div v-else-if="step === 'no_premium'" key="no_premium">
                                     <div class="max-w-md mx-auto text-lg text-center">
-                                        {{ __("Sorry, the", "polytranslate") }} <span class="text-primary-500">{{ __("bulk mode", "polytranslate") }}</span>
-                                        {{ __("is not available in free version.", "polytranslate") }}
+                                        {{ __("Sorry, the", "wptranslation") }} <span class="text-primary-500">{{ __("bulk mode", "wptranslation") }}</span>
+                                        {{ __("is not available in free version.", "wptranslation") }}
                                     </div>
                                     <div class="flex justify-center mt-6">
                                         <a
-                                            :href="getCurrentInstance().appContext.config.globalProperties.$admin('admin.php?page=polytranslate-pricing')"
+                                            :href="getCurrentInstance().appContext.config.globalProperties.$admin('admin.php?page=wptranslation-pricing')"
                                             type="button"
                                             class="inline-flex items-center gap-x-1.5 rounded-md bg-primary-500 py-2 px-3 text-sm font-semibold text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
                                         >
                                             <LockOpenIcon class="-ml-0.5 h-5 w-5" aria-hidden="true" />
-                                            {{ __("Unlock with premium plan", "polytranslate") }}
+                                            {{ __("Unlock with premium plan", "wptranslation") }}
                                         </a>
                                     </div>
 
                                     <div class="w-full h-px my-6 bg-gray-300"></div>
 
-                                    <div class="text-center">{{ __("With the", "polytranslate") }}</div>
-                                    <div class="text-lg text-center">{{ __("Free version", "polytranslate") }}</div>
+                                    <div class="text-center">{{ __("With the", "wptranslation") }}</div>
+                                    <div class="text-lg text-center">{{ __("Free version", "wptranslation") }}</div>
 
                                     <div class="max-w-md mx-auto mt-3 text-center">
-                                        {{ __("You can automatically translate your publications from Polylang.", "polytranslate") }}
+                                        {{ __("You can automatically translate your publications from Polylang.", "wptranslation") }}
                                     </div>
 
                                     <img class="mx-auto mt-6" :src="getCurrentInstance().appContext.config.globalProperties.$asset('img/polylang_plus.gif')" />

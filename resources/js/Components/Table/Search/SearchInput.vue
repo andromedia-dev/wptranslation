@@ -24,7 +24,7 @@ defineEmits(["update:modelValue"]);
                 :value="modelValue"
                 type="text"
                 class="block w-full text-sm text-gray-900 bg-white border-gray-300 rounded-md placeholder:text-gray-500 pl-9 focus:border-primary-500 focus:ring-primary-500"
-                :placeholder="__('Search', 'polytranslate')"
+                :placeholder="__('Search', 'wptranslation')"
             />
         </div>
     </div>

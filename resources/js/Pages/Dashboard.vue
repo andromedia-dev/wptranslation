@@ -125,14 +125,14 @@ await fetch();
                     ]"
                 >
                     <LanguageIcon class="w-5 h-5 mr-2 -ml-1" aria-hidden="true" />
-                    {{ __("Translate", "polytranslate") }}
+                    {{ __("Translate", "wptranslation") }}
                 </button>
                 <FiltersMenu @reset="resetFilters">
                     <SelectFilter v-model="form.post_type" :items="postTypes" prop-key="id" prop-title="name">
-                        {{ __("Post type", "polytranslate") }}
+                        {{ __("Post type", "wptranslation") }}
                     </SelectFilter>
                     <SelectFilter v-model="form.category" :items="categories" prop-key="term_id" prop-title="name">
-                        {{ __("Category", "polytranslate") }}
+                        {{ __("Category", "wptranslation") }}
                     </SelectFilter>
                     <SelectFilter
                         v-if="productCategories.length > 0"
@@ -141,10 +141,10 @@ await fetch();
                         prop-key="term_id"
                         prop-title="name"
                     >
-                        {{ __("Product Category", "polytranslate") }}
+                        {{ __("Product Category", "wptranslation") }}
                     </SelectFilter>
                     <SelectFilter v-model="form.author" :items="users" prop-key="id" prop-title="name">
-                        {{ __("Author", "polytranslate") }}
+                        {{ __("Author", "wptranslation") }}
                     </SelectFilter>
                 </FiltersMenu>
             </div>
@@ -167,22 +167,22 @@ await fetch();
         >
             <ResourceTableHeaders>
                 <ResourceTableHeader :sortable="true" column="title">
-                    {{ __("Title", "polytranslate") }}
+                    {{ __("Title", "wptranslation") }}
                 </ResourceTableHeader>
                 <ResourceTableHeader :sortable="false" column="author" class="hidden xl:table-cell">
-                    {{ __("Author", "polytranslate") }}
+                    {{ __("Author", "wptranslation") }}
                 </ResourceTableHeader>
                 <ResourceTableHeader :sortable="false" column="categories" class="hidden xl:table-cell">
-                    {{ __("Categories", "polytranslate") }}
+                    {{ __("Categories", "wptranslation") }}
                 </ResourceTableHeader>
                 <ResourceTableHeader :sortable="false" column="tags" class="hidden xl:table-cell">
-                    {{ __("Tags", "polytranslate") }}
+                    {{ __("Tags", "wptranslation") }}
                 </ResourceTableHeader>
                 <ResourceTableHeader :sortable="false" column="languages">
                     <LanguagesRow :languages="_values(languages.all)" />
                 </ResourceTableHeader>
                 <ResourceTableHeader :sortable="true" column="date" class="hidden xl:table-cell">
-                    {{ __("Date", "polytranslate") }}
+                    {{ __("Date", "wptranslation") }}
                 </ResourceTableHeader>
             </ResourceTableHeaders>
             <ResourceTableBody>
@@ -198,7 +198,7 @@ await fetch();
                     </ResourceTableBodyColumn>
                     <ResourceTableBodyColumn class="hidden xl:table-cell">
                         <div>
-                            {{ __("Published", "polytranslate") }}
+                            {{ __("Published", "wptranslation") }}
                         </div>
                         <div>{{ post.post_date }}</div>
                     </ResourceTableBodyColumn>

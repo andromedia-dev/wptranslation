@@ -1,15 +1,15 @@
 <?php
 
-namespace Polytranslate\Controllers;
+namespace WPTranslation\Controllers;
 
 use Exception;
-use Polytranslate\Controllers\Controller;
-use Polytranslate\Utils\Settings;
-use Polytranslate\Vendors\DeepL\AuthorizationException;
-use Polytranslate\Vendors\DeepL\Translator as DeepLTranslator;
-use Polytranslate\Vendors\Illuminate\Support\Arr;
-use Polytranslate\Vendors\Illuminate\Validation\Rule;
-use Polytranslate\Vendors\Orhanerday\OpenAi\OpenAi;
+use WPTranslation\Controllers\Controller;
+use WPTranslation\Utils\Settings;
+use WPTranslation\Vendors\DeepL\AuthorizationException;
+use WPTranslation\Vendors\DeepL\Translator as DeepLTranslator;
+use WPTranslation\Vendors\Illuminate\Support\Arr;
+use WPTranslation\Vendors\Illuminate\Validation\Rule;
+use WPTranslation\Vendors\Orhanerday\OpenAi\OpenAi;
 
 class SettingsController extends Controller
 {

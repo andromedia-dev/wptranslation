@@ -1,41 +1,41 @@
 /**
  * Remove wordpress content margin left
  */
-.polytranslate-app {
+.wptranslation-app {
     margin-left: -20px;
 }
 
-.polytranslate-app .min-h-wpcontent {
+.wptranslation-app .min-h-wpcontent {
     min-height: calc(100vh - 32px);
 }
 
-.polytranslate-app .top-wpcontent {
+.wptranslation-app .top-wpcontent {
     top: 32px;
 }
 
-.polytranslate-app .left-wpcontent {
+.wptranslation-app .left-wpcontent {
     left: 36px;
 }
 
 @media screen and (max-width: 782px) {
-    .polytranslate-app {
+    .wptranslation-app {
         margin-left: -10px;
         min-height: 800px;
     }
 
-    .wp-responsive-open .polytranslate-app {
+    .wp-responsive-open .wptranslation-app {
         margin-left: calc(190px - 16em - 10px);
     }
 
-    .polytranslate-app .min-h-wpcontent {
+    .wptranslation-app .min-h-wpcontent {
         min-height: calc(100vh - 46px);
     }
 
-    .polytranslate-app .top-wpcontent {
+    .wptranslation-app .top-wpcontent {
         top: 46px;
     }
 
-    .polytranslate-app .left-wpcontent {
+    .wptranslation-app .left-wpcontent {
         left: 0px;
     }
 }
@@ -43,31 +43,31 @@
 /**
  * Remove wordpress default style
  */
-.polytranslate-app input[type="checkbox"]:checked::before {
+.wptranslation-app input[type="checkbox"]:checked::before {
     content: "";
 }
 
-.polytranslate-app input[type="radio"]::before {
+.wptranslation-app input[type="radio"]::before {
     display: none;
 }
 
-.polytranslate-app dd,
-.polytranslate-app li {
+.wptranslation-app dd,
+.wptranslation-app li {
     margin-bottom: 0px;
 }
 
-.polytranslate-app a:focus {
+.wptranslation-app a:focus {
     box-shadow: inherit;
     outline: inherit;
 }
-.polytranslate-app select {
+.wptranslation-app select {
     max-width: unset;
 }
-.polytranslate-app select:focus,
-.polytranslate-app select:hover {
+.wptranslation-app select:focus,
+.wptranslation-app select:hover {
     color: unset;
 }
 
-.polytranslate-app input[type="checkbox"]:focus {
+.wptranslation-app input[type="checkbox"]:focus {
     border-color: unset;
 }

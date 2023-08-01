@@ -1,6 +1,6 @@
 <?php
 
-namespace Polytranslate\Utils;
+namespace WPTranslation\Utils;
 
 use DOMDocument;
 use DOMElement;

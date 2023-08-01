@@ -1,10 +1,10 @@
 <?php
 
-namespace Polytranslate\Controllers;
+namespace WPTranslation\Controllers;
 
-use Polytranslate\Utils\Detector;
-use Polytranslate\Vendors\Illuminate\Pagination\LengthAwarePaginator;
-use Polytranslate\Vendors\Illuminate\Support\Arr;
+use WPTranslation\Utils\Detector;
+use WPTranslation\Vendors\Illuminate\Pagination\LengthAwarePaginator;
+use WPTranslation\Vendors\Illuminate\Support\Arr;
 use WP_Query;
 
 class TranslateController extends Controller
@@ -26,7 +26,7 @@ class TranslateController extends Controller
         ]);
 
         if (!Detector::polylangIsActive()) {
-            $this->response(["message" => "Polylang not detected.", "error" => "Polylang is missing. Activate it to use Polytranslate."], 503);
+            $this->response(["message" => "Polylang not detected.", "error" => "Polylang is missing. Activate it to use WPTranslation."], 503);
         }
 
         // get default language

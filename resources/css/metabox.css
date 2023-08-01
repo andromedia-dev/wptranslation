@@ -1,18 +1,18 @@
-.is-side #polytranslate-meta-box {
+.is-side #wptranslation-meta-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 }
 
-.is-advanced #polytranslate-meta-box {
+.is-advanced #wptranslation-meta-box {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
 }
 
-#polytranslate-meta-box a.bulk-mode {
+#wptranslation-meta-box a.bulk-mode {
     text-decoration-line: none;
     display: inline-flex;
     padding-top: 0.5rem;
@@ -31,17 +31,17 @@
     cursor: pointer;
 }
 
-#polytranslate-meta-box a svg {
+#wptranslation-meta-box a svg {
     margin-right: 0.5rem;
     margin-left: -0.25rem;
     width: 1.25rem;
     height: 1.25rem;
 }
 
-#polytranslate-meta-box a.bulk-mode:hover {
+#wptranslation-meta-box a.bulk-mode:hover {
     background-color: #f87971;
 }
 
-#polytranslate-meta-box a.settings {
+#wptranslation-meta-box a.settings {
     margin-top: 0.5rem;
 }

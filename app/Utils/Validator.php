@@ -1,11 +1,11 @@
 <?php
 
-namespace Polytranslate\Utils;
+namespace WPTranslation\Utils;
 
-use Polytranslate\Vendors\Illuminate\Support\Arr;
-use Polytranslate\Vendors\Illuminate\Translation\ArrayLoader;
-use Polytranslate\Vendors\Illuminate\Translation\Translator;
-use Polytranslate\Vendors\Illuminate\Validation\Validator as IlluminateValidator;
+use WPTranslation\Vendors\Illuminate\Support\Arr;
+use WPTranslation\Vendors\Illuminate\Translation\ArrayLoader;
+use WPTranslation\Vendors\Illuminate\Translation\Translator;
+use WPTranslation\Vendors\Illuminate\Validation\Validator as IlluminateValidator;
 
 class Validator extends IlluminateValidator
 {

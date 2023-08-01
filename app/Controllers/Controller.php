@@ -1,9 +1,9 @@
 <?php
 
-namespace Polytranslate\Controllers;
+namespace WPTranslation\Controllers;
 
-use Polytranslate\Utils\Validator;
-use Polytranslate\Vendors\Illuminate\Validation\ValidationException;
+use WPTranslation\Utils\Validator;
+use WPTranslation\Vendors\Illuminate\Validation\ValidationException;
 
 class Controller
 {
@@ -35,14 +35,14 @@ class Controller
 
     protected function verifyNonce($key = "_ajax_nonce")
     {
-        if (!isset($_POST[$key]) || !wp_verify_nonce($_POST[$key], POLYTRANSLATE_NONCE)) {
+        if (!isset($_POST[$key]) || !wp_verify_nonce($_POST[$key], WPTRANSLATION_NONCE)) {
             $this->response(["message" => "Page expired.", "error" => "Refresh the page and retry."], 403);
         }
     }
 
     protected function verifyPremium()
     {
-        if (!polytranslate_fs()->can_use_premium_code()) {
+        if (!wptranslation_fs()->can_use_premium_code()) {
             $this->response(["message" => "Invalid license.", "error" => "You must have a valid license to use this plugin."], 403);
         }
     }
